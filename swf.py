@@ -1,8 +1,6 @@
 import streamlit as st
 import time
-from streamlit_autorefresh import st_autorefresh
 
-st_autorefresh(interval=1000, key="water_refresh")
 
 st.set_page_config(
     page_title="Smart Water Faucet",
